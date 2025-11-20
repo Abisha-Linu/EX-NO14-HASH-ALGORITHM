@@ -27,9 +27,20 @@ To implement HASH ALGORITHM
 
 
 ## Program:
+```
+import hashlib
 
+text = "HELLO WORLD".encode()
 
+hash_value = hashlib.sha256(text).hexdigest()
+
+print("Input Text:", text.decode())
+print("SHA-256 Hash:", hash_value)
+
+```
 ## Output:
+
+<img width="763" height="47" alt="image" src="https://github.com/user-attachments/assets/94345426-516e-4385-97ff-491fd03c0be0" />
 
 ## Result:
 The program is executed successfully.
